@@ -46,3 +46,27 @@ form .display input {
     font-size: 45px;
     box-shadow: none;
 }
+form input.equal {
+    width: 145px;
+}
+
+form input.operator {
+    color: black;
+}
+
+.creditButton {
+    width: 310px;
+    margin:10px;
+    background-color: dimgrey;
+    font-Size: 20px;
+    border-radius: 10px;
+    color: White;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 2, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 0px;
+    outline: 0px;
+}
+
+.creditButton.hovered {
+    background-color: white;
+}
